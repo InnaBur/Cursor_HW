@@ -1,4 +1,4 @@
-package com.cursor;
+package com.cursor.HW2;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package com.cursor;
+package com.cursor.HW2;
 
 /**
  * In this class we get an array of numbers(positive and negative numbers),
