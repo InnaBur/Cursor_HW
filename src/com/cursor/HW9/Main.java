@@ -72,7 +72,7 @@ public class Main {
 
 
         Map<UUID, Car> carsMap = cars.stream()
-                .collect(Collectors.toMap(Car::getId, Function.identity()));
+                .collect(Collectors.toMap(Car::getId, car -> car));
 
         System.out.println("Map is: " + carsMap);
     }
