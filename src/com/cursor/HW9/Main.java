@@ -40,12 +40,12 @@ public class Main {
 
         // cars younger 2018: list and brands
         List<Car> carsYear = carList.stream()
-                .filter(car -> car.getYear() < 2018).toList();
+                .filter(car -> car.getYear() > 2018).toList();
         System.out.println("List of Cars younger 2018: " + carsYear);
 
         List<Car.Brand> carsYearName =
                 carList.stream()
-                        .filter(car -> car.getYear() < 2018)
+                        .filter(car -> car.getYear() > 2018)
                         .map(Car::getBrand).toList();
         System.out.println("List of Cars brands younger 2018: " + carsYearName);
 
