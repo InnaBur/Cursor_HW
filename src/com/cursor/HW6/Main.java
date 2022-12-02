@@ -30,6 +30,7 @@ public class Main {
 
         System.out.println("Single list size is: " + singlyLL.size());
         singlyLL.printList();
+        System.out.println("Pop element: " + singlyLL.pop());
         singlyLL.pop();
         System.out.println("Single list after removing an element: ");
         singlyLL.printList();

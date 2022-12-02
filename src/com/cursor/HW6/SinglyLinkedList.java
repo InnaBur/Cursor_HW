@@ -10,7 +10,6 @@ public class SinglyLinkedList {
 
     }
     private Node head;
-    private Node end;
 
     /** In the method checks if the list is empty
      */
@@ -32,8 +31,8 @@ public class SinglyLinkedList {
 
     /** In the method elements are removed to the list
      */
-    public Node pop() {
-        Node temp = head;
+    public int pop() {
+        int temp = head.val;
         head = head.next;
         return temp;
     }

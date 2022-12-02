@@ -6,15 +6,7 @@ import java.util.ArrayList;
  * This class implements methods for Doubly Linked List
  * based Queue ( Methods: enqueue, dequeue, size, isEmpty )
  */
-public class DoublyLinkedListQueue {
-
-    class Node {
-        public double number;
-        public Node next;
-    }
-
-    private Node head;
-    private Node end;
+public class DoublyLinkedListQueue extends DoublyLinkedList{
 
     public int size() {
         int count = 0;
